@@ -8,7 +8,9 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 Quick-start development settings - unsuitable for production
 See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
    
-A1. Modify debug status
+A1. Modify 
+
+status
 A2. Modify allowed hosts
 A3. Modify installed applications
 A4. Modify database to be used
@@ -24,8 +26,8 @@ SECRET_KEY = '!k&z#(tg($8jl066i#^lsx4-ww4d_qn2=d0yqymqu#*ot0@32e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # A1 Debug Status
-DEBUG = False
-# DEBUG = True
+#DEBUG = False
+DEBUG = True
 
 # ALLOWED_HOSTS = ['127.0.0.1:8000', '8000', 'localhost:8000', '52.234.228.184']
 # ALLOWED_HOSTS = [os.environ['WEBSITE_SITE_NAME'] + '.azurewebsites.net', '127.0.0.1'] if 'WEBSITE_SITE_NAME' in os.environ else []
